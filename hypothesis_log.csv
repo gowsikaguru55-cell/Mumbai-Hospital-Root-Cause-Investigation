@@ -1,0 +1,7 @@
+ID,Hypothesis,Measures,Test,Evidence/status,Decision rule
+H1,Completed OPD volume fell and explains part of net revenue decline,Completed OPD count; net revenue by hospital-month,Welch t-test & monthly comparison,OPD volume remained relatively stable; rejected as primary structural driver,p < 0.05 for significant volume drop
+H2,Andheri accounts for a disproportionate share of decline,Net revenue by hospital-month,Hospital x period decomposition,Confirmed; major revenue drop concentrated in specific branches,p < 0.05 for location concentration
+H3,Self-pay realization deteriorated more than other payer segments,Net revenue per bill by payer segment,Chi-square test & OLS regression,Rejected; Chi-square p-value = 0.8017 and OLS p-value = 0.253 show no significant shift in payer mix proportions,p < 0.05 for segment shift
+H4,Service mix shifted away from higher-value IPD services,Revenue and bill share by service type,Service-type bridge breakdown,Confirmed via service-type bridge analysis showing specific service shifts,p < 0.05 for service share variance
+H5,OPD-to-admission conversion fell,Admissions / completed OPD visits by hospital-week,Binomial/logistic regression & rate comparison,Tested via operational comparison; conversion rates analyzed across periods,p < 0.05 for conversion drop
+H6,August dengue surge is a one-off,Dengue-coded OPD and monthly net revenue,Sub-period breakdown excluding August,Confirmed; August infectious-fever surge created a temporary operational distortion separate from structural trends,p < 0.05 for temporary anomaly
